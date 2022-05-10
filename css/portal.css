@@ -3,26 +3,32 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #fbe551;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Playfair Display', serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: #f9faf4; 
+    background: #e8dfe0;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #fbe551;
     line-height: 2.5em;
 }
 
+h1.logo{
+    font-family: 'Playfair Display', serif;
+        font-size: 48px;
+}
+
 main.wrapper {
-    background-color: white;
+    background-color: #fbe551;
     overflow: auto;
 }
 
@@ -37,13 +43,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#f48200;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: #f48200;
+    background-color: #fde88d;
     text-decoration: none;
 }
 
